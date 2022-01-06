@@ -1,12 +1,11 @@
-import * as React from 'react';
-import hoodie from '../images/hoodie.jpg';
-import tshirt from '../images/t-shirt.jpg';
-import printedTshirt from '../images/printed t-shirt.jpg';
+import * as React from "react";
+import hoodie from "../images/hoodie.jpg";
+import tshirt from "../images/t-shirt.jpg";
+import printedTshirt from "../images/printed t-shirt.jpg";
 
-export interface IOfferProps {
-}
+export interface IOfferProps {}
 
-export function Offer (props: IOfferProps) {
+export function Offer(props: IOfferProps) {
   return (
     <section className="offer">
       <h2 className="offer__title">Специальные предложения</h2>

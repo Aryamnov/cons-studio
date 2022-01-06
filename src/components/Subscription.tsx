@@ -1,11 +1,10 @@
-import * as React from 'react';
+import * as React from "react";
 import isEmail from "validator/lib/isEmail";
 
-export interface ISubscriptionProps {
-}
+export interface ISubscriptionProps {}
 
-export function Subscription (props: ISubscriptionProps) {
-  const [value, setValue] = React.useState('');
+export function Subscription(props: ISubscriptionProps) {
+  const [value, setValue] = React.useState("");
   const [isValidEmail, setIsValidEmail] = React.useState(false);
   const [isSubmit, setIsSubmit] = React.useState(false);
 
@@ -16,7 +15,7 @@ export function Subscription (props: ISubscriptionProps) {
       setIsValidEmail(true);
     } else {
       setIsValidEmail(false);
-    };
+    }
   };
 
   const handleSubmit = (e: any) => {
@@ -26,8 +25,8 @@ export function Subscription (props: ISubscriptionProps) {
       setIsSubmit(true);
     } else {
       return;
-    };
-  } 
+    }
+  };
 
   return (
     <section className="subscription">
@@ -36,12 +35,38 @@ export function Subscription (props: ISubscriptionProps) {
           <h2 className="subscription__title">Актуальные новости</h2>
           <h3 className="subscription__subtitle">Подпишитесь на рассылку</h3>
           {!isSubmit ? (
-          <form className="subscription__form" onSubmit={(e) => {handleSubmit(e)}}>
+            <form
+              className="subscription__form"
+              onSubmit={(e) => {
+                handleSubmit(e);
+              }}
+            >
               <p className="subscription__value">E-mail:</p>
-              <input className={"subscription__input " + (value !== '' ? (isValidEmail ? "subscription__input_valid" : "subscription__input_not-valid") : "")} type="email" name="email" placeholder="Введите ваш E-mail" value={value} onChange={(e) => handleChangeEmail(e)}></input>
-          </form>) : (<p className="subscription__submit">Письмо отправлено!</p>)}
-          <span className="subscription__signature">Ещё больше предложений в нашем Instagram</span>
-          <a className="subscription__link" href="#">Перейти к акаунту</a>
+              <input
+                className={
+                  "subscription__input " +
+                  (value !== ""
+                    ? isValidEmail
+                      ? "subscription__input_valid"
+                      : "subscription__input_not-valid"
+                    : "")
+                }
+                type="email"
+                name="email"
+                placeholder="Введите ваш E-mail"
+                value={value}
+                onChange={(e) => handleChangeEmail(e)}
+              ></input>
+            </form>
+          ) : (
+            <p className="subscription__submit">Письмо отправлено!</p>
+          )}
+          <span className="subscription__signature">
+            Ещё больше предложений в нашем Instagram
+          </span>
+          <a className="subscription__link" href="#">
+            Перейти к акаунту
+          </a>
         </div>
         <div className="subscription__photo" />
       </div>
