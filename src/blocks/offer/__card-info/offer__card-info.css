@@ -1,0 +1,15 @@
+.offer__card-info {
+    height: 356px;
+    width: 349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    opacity: 0;
+    transition: 0.4s linear;
+}
+
+.offer__card-info:hover {
+    opacity: 1;
+}

@@ -1,0 +1,6 @@
+.advert__link_active {
+    width: 43px;
+    height: 2px;
+    border-radius: 10px;
+    cursor: auto;
+}

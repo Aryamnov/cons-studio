@@ -1,0 +1,12 @@
+.offer__basket {
+    background-image: url(../../../images/basket.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 29px;
+    height: 34px;
+    background-color: Transparent;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}

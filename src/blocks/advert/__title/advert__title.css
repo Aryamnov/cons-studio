@@ -1,0 +1,10 @@
+.advert__title {
+    width: 320px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}

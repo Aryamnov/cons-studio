@@ -1,0 +1,10 @@
+.advert__link {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8D6FBE;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.4s linear;
+}

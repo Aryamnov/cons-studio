@@ -1,0 +1,5 @@
+.advert__list {
+    margin: 86px 0 6px 0;
+    display: flex;
+    justify-content: space-between;
+}

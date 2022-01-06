@@ -1,0 +1,16 @@
+.footer__label {
+    background-image: url(../../../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto 69px auto 0;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    padding-left: 10px;
+}

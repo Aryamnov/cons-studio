@@ -1,0 +1,15 @@
+.subscription__input {
+    width: 277px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    margin: 5px 0 15px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.05em;    
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 14px;
+    outline: none;
+}

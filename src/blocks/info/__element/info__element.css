@@ -1,0 +1,7 @@
+.info__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    letter-spacing: 0.05em;
+}

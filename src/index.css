@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/__navbar/header__navbar.css);
+@import url(./blocks/header/__list/header__list.css);
+@import url(./blocks/header/__element/header__element.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__link/_active/header__link_active.css);
+@import url(./blocks/advert/advert.css);
+@import url(./blocks/advert/__content/advert__content.css);
+@import url(./blocks/advert/__info/advert__info.css);
+@import url(./blocks/advert/__title/advert__title.css);
+@import url(./blocks/advert/__subtitle/advert__subtitle.css);
+@import url(./blocks/advert/__button/advert__button.css);
+@import url(./blocks/advert/__image-container/advert__image-container.css);
+@import url(./blocks/advert/__image/advert__image.css);
+@import url(./blocks/advert/__list/advert__list.css);
+@import url(./blocks/advert/__lang/advert__lang.css);
+@import url(./blocks/advert/__element/advert__element.css);
+@import url(./blocks/advert/__lang-link/advert__lang-link.css);
+@import url(./blocks/advert/__lang-link/_active/advert__lang-link_active.css);
+@import url(./blocks/advert/__number-list/advert__number-list.css);
+@import url(./blocks/advert/__number/advert__number.css);
+@import url(./blocks/advert/__link/advert__link.css);
+@import url(./blocks/advert/__link/_active/advert__link_active.css);
+@import url(./blocks/offer/offer.css);
+@import url(./blocks/offer/__title/offer__title.css);
+@import url(./blocks/offer/__cards/offer__cards.css);
+@import url(./blocks/offer/__card/offer__card.css);
+@import url(./blocks/offer/__image/offer__image.css);
+@import url(./blocks/offer/__card-info/offer__card-info.css);
+@import url(./blocks/offer/__card-buy/offer__card-buy.css);
+@import url(./blocks/offer/__price/offer__price.css);
+@import url(./blocks/offer/__basket/offer__basket.css);
+@import url(./blocks/offer/__product/offer__product.css);
+@import url(./blocks/subscription/subscription.css);
+@import url(./blocks/subscription/__container/subscription__container.css);
+@import url(./blocks/subscription/__info/subscription__info.css);
+@import url(./blocks/subscription/__title/subscription__title.css);
+@import url(./blocks/subscription/__subtitle/subscription__subtitle.css);
+@import url(./blocks/subscription/__form/subscription__form.css);
+@import url(./blocks/subscription/__value/subscription__value.css);
+@import url(./blocks/subscription/__input/subscription__input.css);
+@import url(./blocks/subscription/__submit/subscription__submit.css);
+@import url(./blocks/subscription/__input/_valid/subscription__input_valid.css);
+@import url(./blocks/subscription/__input/not-valid/subscription__input_not-valid.css);
+@import url(./blocks/subscription/__signature/subscription__signature.css);
+@import url(./blocks/subscription/__link/subscription__link.css);
+@import url(./blocks/subscription/__photo/subscription__photo.css);
+@import url(./blocks/info/info.css);
+@import url(./blocks/info/__list/info__list.css);
+@import url(./blocks/info/__element/info__element.css);
+@import url(./blocks/info/__title/info__title.css);
+@import url(./blocks/info/__subtitle/info__subtitle.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__container/footer__container.css);
+@import url(./blocks/footer/__main/footer__main.css);
+@import url(./blocks/footer/__label/footer__label.css);
+@import url(./blocks/footer/__nav/footer__nav.css);
+@import url(./blocks/footer/__element/footer__element.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__everything/footer__everything.css);
+@import url(./blocks/footer/__nav-start/footer__nav-start.css);
+@import url(./blocks/footer/__contacts/footer__contacts.css);
+@import url(./blocks/footer/__phone/footer__phone.css);
+@import url(./blocks/footer/__email/footer__email.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

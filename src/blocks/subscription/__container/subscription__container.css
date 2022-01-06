@@ -1,0 +1,7 @@
+.subscription__container {
+    background-color: #FFFFFF;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

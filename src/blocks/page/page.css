@@ -1,0 +1,8 @@
+.page {
+    background-color: #E5E5E5;
+    font-family: 'NotoSans',Arial,sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}

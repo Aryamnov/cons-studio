@@ -1,0 +1,5 @@
+.offer__card-buy {
+    width: 289px;
+    display: flex;
+    justify-content: space-between;
+}

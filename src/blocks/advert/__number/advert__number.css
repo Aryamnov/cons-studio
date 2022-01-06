@@ -1,0 +1,8 @@
+.advert__number {
+    margin-right: 12px;
+    display: flex;
+}
+
+.advert__number:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,20 @@
+.subscription__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    margin: 0;
+    width: 257px;
+    height: 45px;
+    background: linear-gradient(180deg, #8E6BC9 0%, rgba(98, 64, 154, 0.502083) 49.79%, #9973D6 99.99%, rgba(142, 107, 201, 0) 100%);
+    box-shadow: 0px 6px 13px -2px rgba(98, 64, 154, 0.502083);
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 0;
+}

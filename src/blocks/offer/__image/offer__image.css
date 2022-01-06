@@ -1,0 +1,5 @@
+.offer__image {
+    position: absolute;
+    z-index: 0;
+    transition: 1s linear;
+}

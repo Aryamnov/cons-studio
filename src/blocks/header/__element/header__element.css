@@ -1,0 +1,7 @@
+.header__element {
+    padding-right: 71px;
+}
+
+.header__element:last-child {
+    padding-right: 0;
+}

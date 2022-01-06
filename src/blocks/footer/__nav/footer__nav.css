@@ -1,0 +1,13 @@
+.footer__nav {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    padding: 0;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
