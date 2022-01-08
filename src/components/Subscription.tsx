@@ -1,5 +1,6 @@
 import * as React from "react";
 import isEmail from "validator/lib/isEmail";
+import { subscribe } from "../utils/api";
 
 export interface ISubscriptionProps {}
 
@@ -7,6 +8,7 @@ export function Subscription(props: ISubscriptionProps) {
   const [value, setValue] = React.useState("");
   const [isValidEmail, setIsValidEmail] = React.useState(false);
   const [isSubmit, setIsSubmit] = React.useState(false);
+  const [isSuccesSubmit, setIsSuccesSubmit] = React.useState(true);
 
   const handleChangeEmail = (e: any) => {
     setValue(e.target.value);
@@ -22,7 +24,15 @@ export function Subscription(props: ISubscriptionProps) {
     e.preventDefault();
     if (isValidEmail) {
       console.log("Submit!");
-      setIsSubmit(true);
+      subscribe(value)
+      .then((res) => {
+        setIsSuccesSubmit(true);
+      })
+      .catch((err) => {
+        console.log(err);
+        setIsSuccesSubmit(false);
+      })
+      .finally(() => setIsSubmit(true));
     } else {
       return;
     }
@@ -58,9 +68,11 @@ export function Subscription(props: ISubscriptionProps) {
                 onChange={(e) => handleChangeEmail(e)}
               ></input>
             </form>
-          ) : (
-            <p className="subscription__submit">Письмо отправлено!</p>
-          )}
+          ) : (<>{isSuccesSubmit ? (<p className="subscription__submit">Письмо отправлено!</p>) : (
+          <div className="subscription__bad-request">
+          <p className="subscription__submit">Произошла ошибка, попробуйте позже</p>
+          <button className="subscription__restart" onClick={() => setIsSubmit(false)}></button>
+          </div>)}</>)}
           <span className="subscription__signature">
             Ещё больше предложений в нашем Instagram
           </span>

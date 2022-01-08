@@ -1,0 +1,11 @@
+.subscription__restart {
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../images/restart.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 40px;
+    cursor: pointer;
+}

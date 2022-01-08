@@ -43,10 +43,12 @@
 @import url(./blocks/subscription/__form/subscription__form.css);
 @import url(./blocks/subscription/__value/subscription__value.css);
 @import url(./blocks/subscription/__input/subscription__input.css);
+@import url(./blocks/subscription/__bad-request/subscription__bad-request.css);
 @import url(./blocks/subscription/__submit/subscription__submit.css);
 @import url(./blocks/subscription/__input/_valid/subscription__input_valid.css);
 @import url(./blocks/subscription/__input/not-valid/subscription__input_not-valid.css);
 @import url(./blocks/subscription/__signature/subscription__signature.css);
+@import url(./blocks/subscription/__restart/subscription__restart.css);
 @import url(./blocks/subscription/__link/subscription__link.css);
 @import url(./blocks/subscription/__photo/subscription__photo.css);
 @import url(./blocks/info/info.css);
